@@ -1,0 +1,98 @@
+#container {
+	width: 1150px;
+	margin: 90px auto 0 auto;
+	background: #eaecea;
+	-webkit-backface-visibility: hidden;
+}
+
+#container h7 {
+	color: #333;
+	font-weight: bold;
+	font-family: helvetica;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+#container h2 {
+	color: #333;
+	font-family: helvetica;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+#nametag {
+	position: relative;
+	z-index: 1000;
+	margin: 50px 0px 0px 45px;
+	width: 400px;
+	cursor: pointer;
+}
+
+#container ol li {
+	color: #3AC6D3;
+	font-family: helvetica neue;
+	font-style: bold;
+	font-weight: bolder;
+	text
+}
+
+#blurb {
+	color: #333;
+	font-size: 10px;
+	font-family: helvetica;
+	text-transform: uppercase;
+	margin-top: 1px;
+	letter-spacing: 1px;
+	}
+
+a {
+	text-decoration: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+p {
+    font-size: 14px;
+    line-height: 21px;
+    font-family: "helvetica",Georgia,Times;
+    font-weight: normal;
+    text-rendering: optimizelegibility;
+}
+
+
+
+h1 {
+	color: #333;
+	font-size: 28px;
+	font-family: helvetica;
+	font-weight: normal;
+	letter-spacing: 1px;
+	padding-top: 30px;
+}
+
+h2 {
+	color: #333;
+	font-size: 28px;
+	font-family: "helvetica", tahoma;
+	font-weight: normal;
+	letter-spacing: 1px;
+	padding-top: 30px;
+}
+.top {
+	z-index: 999;
+	margin-top: -450;
+}
+
+#nametag img {
+    float: left;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: none repeat scroll 0% 0% #EAECEA;
+    border-top: 7px solid #7BF8D6;
+}
