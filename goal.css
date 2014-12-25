@@ -1,0 +1,571 @@
+/* LINDA DONG - CSS */
+
+
+/* GENERAL */
+
+html {
+margin: 0; 
+padding: 0;
+}
+
+body {
+margin: 0; 
+padding: 0; 
+background: #eaecea;
+border-top: #7bf8d6 solid 7px;
+}
+
+h1, h2, h3, h4, h5 {
+padding: 0; 
+margin: 0;
+font-family:"league-gothic-1","league-gothic-2", Impact, helvetica;
+text-decoration: none;
+text-transform: uppercase;
+-webkit-font-smoothing: antialiased;
+}
+		
+	/*Description*/ 
+	h5 {
+	font-family: "p22-underground-1","p22-underground-2", century gothic, futura;
+	text-transform: uppercase;
+	font-size: 9px;
+	letter-spacing: 1px;
+	font-weight: normal;
+	font-size: 14px;
+	margin-top: 3px;
+	color: #333;
+	}
+	
+
+p { 
+font-size: 14px; 
+line-height: 21px;
+font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2", Georgia, Times; 
+font-weight: normal;
+text-rendering: optimizeLegibility;
+-webkit-font-smoothing: antialiased;
+}
+
+a {
+text-decoration: none;
+color: #000;
+padding: 0;
+margin: 0;
+cursor:pointer;
+}
+	
+	p a { 
+	color: #000;
+	opacity: 1;
+	}
+
+	p a:hover { 
+	opacity: .7;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	}
+
+ul{
+list-style-type: none;
+padding: 0;
+margin: 0;
+text-align: center;
+}
+
+hr {
+border: 0px; 
+height: 1px; 
+background: #000;
+padding: 0;
+margin: 0;
+}
+
+img {
+border: none;
+}
+	
+#content {
+margin-left: 50px;
+}
+
+	#content a {
+	color: #44b093;}
+
+/*Header*/
+
+#container {
+
+width: 1150px;
+margin: 90px auto 0 auto;
+background:#eaecea;
+-webkit-backface-visibility: hidden;
+}
+
+#nametag {
+position: relative; 
+z-index: 1000;
+margin: 50px 0 0 45px;
+width: 400px;
+cursor: pointer;
+}
+
+	#nametag:hover {
+	-webkit-transform: translate(0,10px);
+	-webkit-transition: -webkit-transform .3s;
+	-moz-transition: .3s;
+	cursor: pointer;
+	-webkit-backface-visibility: hidden;
+	}
+	
+		#nametag img { 
+		float: left;
+		margin-right: 20px; 
+		cursor: pointer;
+		}
+		
+		h1 {
+		color: #333;
+		font-size: 28px;
+		font-weight: normal;
+		letter-spacing: 1px;
+		padding-top: 30px;
+		}
+		
+		#blurb {
+		color: #333;
+		font-size: 10px;
+		font-family: "p22-underground-1","p22-underground-2", century gothic, helvetica;
+		text-transform: uppercase;
+		margin-top: 1px;
+		letter-spacing: 1px;
+		}
+
+#header {
+height: 120px;
+padding-top: 112px;
+}
+
+	h2 {
+	font-size: 85px;
+	line-height: 26px;
+	letter-spacing: 1px;
+	font-weight: 100;
+	color: #333;
+	text-shadow: #d9d9d9 4px 4px 0px;
+	}
+
+
+#menu {
+position: absolute;
+left: 50%; 
+top: 424px;
+height: 300px;
+margin-left: 420px;
+z-index: 1000;
+}
+
+	h3 {
+	font-family: "p22-underground-1","p22-underground-2", century gothic, helvetica;
+	font-size: 13px;
+	font-weight: normal;
+	padding-top: 10px;
+	letter-spacing: 1px;
+	}
+	
+	#menu li {
+	color: #333;
+	background: #7bf8d6;
+	width: 130px;
+	height: 33px;
+	margin-bottom: 15px;
+	display: block;
+	-webkit-box-shadow: 3px 3px 0px #ccc;
+	opacity: .8;
+	}
+
+		#menu h3:hover {
+		opacity: 1;
+		-webkit-transition: .3s;
+		-moz-transition: .3s;
+		}
+		
+		#menu li:hover {opacity: 1;}
+		
+	li#backtotop {
+	color: #fff;
+	display: none;
+	width: 130px; 
+	height: 33px;
+	position: relative;
+	background: #404040;
+	}
+	
+	.back {
+	font-size: 13px;
+	padding-top: 10px;}
+	
+
+/*Gallery*/
+
+#gallery {
+clear: both;
+
+}
+	
+	.box {
+	margin: 0 20px 20px 0;
+	float: left;
+	text-align: left;
+	opacity: 1;
+	}
+	
+		.box:hover {
+		opacity: .7;
+		-webkit-transition: .3s;
+		-moz-transition: .3s;
+		}
+
+	.caption {
+	margin-top: 5px;
+	font-family: "p22-underground-1","p22-underground-2", century gothic, futura;
+	text-transform: uppercase;
+	font-size: 9px;
+	letter-spacing: 1px;
+	color: #404040;
+	}
+	
+	.caption-title {
+	margin-top: -14px;
+	font-size: 10px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-family: "p22-underground-1","p22-underground-2", century gothic, futura;
+	color: #000;
+	}
+	
+
+.clear {
+height:50px;
+width: 100%;
+margin:0;
+overflow:hidden;
+clear: both;
+}
+
+/*Footer*/
+
+#footer {
+width: 100%;
+height: 270px;
+background: #7bf8d6;
+text-align: center;
+padding: 25px 0 0 0;
+}
+
+#menu-wrapper { 
+margin: 0 auto;
+height: 200px; 
+width: 1200px;
+}
+
+	h4 {
+	font-size: 40px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	color: #404040;
+	margin-bottom: 10px;
+	}
+
+	.footermenus {
+	width: 290px;
+	float: left;
+	text-align: left;
+	}
+	
+	#more li, #friends li, #inspiration li {
+	display:block;
+	font-family: "p22-underground-1","p22-underground-2", century gothic, futura;
+	text-transform: uppercase;
+	width: 280px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	letter-spacing: 1px;
+	margin-left: 75px;
+	}
+	
+		#more a, #friends a, #inspiration a {
+		color: #404040;
+		}
+		
+		#more li a:hover, #friends li a:hover, #inspiration li a:hover {
+		opacity: .6;
+		-webkit-transition: 0.5s;
+		-moz-transition: 0.5s;
+		}
+		
+	
+#copyright {
+width: 100%;
+text-align: center;
+clear: both;
+background: #444;
+height: 21px;
+}
+
+	#copyright p {
+	font-family: "p22-underground-1","p22-underground-2", century gothic, futura;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 10px;
+	color: #fff;
+	margin: 0;
+	}
+	
+	#copyright a {color: #7bf8d6;}
+
+
+/*Project*/ 
+
+#project img {margin-bottom: 30px;}
+
+#video {margin-bottom: 30px;}
+
+.long {width: 800px; text-align: center; margin-top: -10px; margin-bottom: 40px; margin-left: 50px;}
+
+#description { 
+width: 250px;
+height: 440px; 
+}
+
+	.right {
+	float: left; 
+	margin: 0 0 30px 20px;
+	}
+	
+	.left {
+	float: left;
+	margin: 0 0 30px 0;}
+	
+	.bottom {
+	height: 440px;
+	width: 650px;
+	float: left;
+	z-index: 0;
+	margin-bottom: 30px;}
+	
+	.top {
+	z-index: 999;
+	margin-top: -470px;
+	top:0;
+	left: 0;
+	opacity: 0;
+	}
+	
+		.top:hover {
+		opacity: 1;
+		-webkit-transition: .5s;
+		-moz-transition: .5s}
+
+/*About*/
+
+.about {margin-top: 35px;}
+
+#bio {width: 670px;}
+
+.bar {
+background: #7bf8d6;
+width: 100px;
+margin: 0 40px 10px 0;
+float: left;}
+	
+	#bar1 {height: 140px;}
+	
+	#bar2 {height: 100px; margin-top: 40px;}
+	
+	#bar3 {height: 80px; margin-top: 60px;}
+	
+	#bar4 {height: 70px; margin-top: 70px;}
+	
+	#bar5 {height: 7px; margin-top: 133px;}
+
+ul.breakdown {
+font-size: 10px;
+letter-spacing: 1px;
+font-family: "p22-underground-1","p22-underground-2", century gothic, futura;
+font-style: normal;
+text-transform: uppercase;}
+
+	ul.breakdown li {
+	width: 100px;
+	display: inline;
+	float: left;
+	list-style: none;
+	margin: 20px 35px 0 0;}
+	
+
+
+/*Contact*/ 
+
+#contact {
+float: left;
+width: 310px;
+margin: 25px 30px 10px 0;
+}
+
+	.contact {
+	font-size: 14px;
+	margin-bottom: 25px;
+	}
+
+form {
+margin: 80px 0 0 0;
+width:470px;
+position:relative;
+float: left;
+}
+
+label {
+width:100%;
+display: block;
+padding:5px 0 5px 0;
+}
+
+	label span {
+	display: block;
+	font-size:12px;
+	font-family: "p22-underground-1","p22-underground-2", century gothic, futura;
+	text-transform: uppercase;
+	float:left;
+	width:100px;
+	text-align:right;
+	padding:12px 20px 0 0;
+	}
+
+input {
+padding:10px 10px;
+width:180px;
+border: 1px double #171717;
+}
+
+textarea {
+resize: none;
+padding:7px 7px;
+width:320px;
+border: 1px double #171717;
+overflow:hidden;
+height:130px;
+}
+
+.button {
+margin:5px 0;
+padding:7px 0 6px 0;
+background:#7bf8d6;
+letter-spacing: 1px;
+border:0px;
+position: relative;
+top:10px;
+left:376px;
+width:80px;
+cursor: pointer;
+text-transform: uppercase; 
+font-size: 12px;
+font-family: "p22-underground-1","p22-underground-2", century gothic, futura;
+}
+
+	.button:hover {
+	opacity: .8; 
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+	}
+
+	
+/*Resume*/
+
+#resumepdf p {
+float: left;
+font-family: "league-gothic-1","league-gothic-2", Impact;
+font-size: 32px;
+text-transform: uppercase;
+letter-spacing: 1px;
+color: #53d6ad;
+margin: 24px 0 0 10px;
+font-weight: normal;
+}
+
+	#resumepdf img {
+	float: left;
+	}
+	
+	#resumepdf:hover {
+	-webkit-transform: translate(0,10px);
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+	}
+	
+#left {
+clear: both;
+float: left; 
+width: 385px;
+margin-right: 80px;
+}
+
+#right {
+float: left; 
+}
+
+	.resume { 
+	margin:50px 0 40px 0;
+	}
+
+	.company {
+	color: #404040;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 25px;
+	letter-spacing: 1px;
+	margin-bottom: 8px;
+	font-family: "league-gothic-1","league-gothic-2", Impact;
+	}
+	
+		.location {
+		font-family:"p22-underground-1","p22-underground-2", century gothic, futura;
+		font-size: 10px;
+		text-transform: uppercase; 
+		letter-spacing: 1px;
+		color: #444;
+		}
+		
+		.position { 
+		font-style: italic;
+		margin: 16px 0;
+		}
+		
+		.detail { 
+		font-size: 14px; 
+		margin: 10px 0 38px 0;
+		line-height: 20px;
+		color: #444;
+		}
+	
+	.award {
+	color: #404040;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 21px;
+	letter-spacing: 1px;
+	margin-bottom: 7px;
+	font-family: "league-gothic-1","league-gothic-2", Impact;
+	}
+		
+		.detail2 {
+		font-size: 14px;
+		margin: 0 0 20px 0;
+		color: #444;
+		}
+		
+		.skills { 
+		font-size: 13px;
+		margin-top: -10px;
+		color: #444;
+		}
+
